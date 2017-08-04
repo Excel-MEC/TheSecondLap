@@ -72,4 +72,4 @@ grunt.loadNpmTasks("grunt-contrib-concat");
 grunt.loadNpmTasks("grunt-contrib-connect");
 grunt.loadNpmTasks("grunt-render-nunjucks");
 
-grunt.registerTask("default", ["concat", "renderNunjucks", "connect", "watch"]);
+grunt.registerTask("serve", ["concat", "renderNunjucks", "connect", "watch"]);
