@@ -13,6 +13,7 @@
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-render-nunjucks": "^0.2.0"
+    "grunt-render-nunjucks": "^0.2.0",
+    "grunt-available-tasks": "^0.6.3"
   }
 }

@@ -16,10 +16,10 @@ grunt.initConfig({
 			}
 		},
 		nuns: {
-			files: ["src/layout/**/*.njk", "src/partials/**/*.njk"],
+			files: ["src/layout/**/*.njk", "src/sections/**/*.njk"],
 			tasks: ["renderNunjucks:index"],
 			options: {
-				spawn: false
+				spawn: true
 			}
 		},
 		options: {
@@ -71,5 +71,5 @@ grunt.loadNpmTasks("grunt-contrib-watch");
 grunt.loadNpmTasks("grunt-contrib-concat");
 grunt.loadNpmTasks("grunt-contrib-connect");
 grunt.loadNpmTasks("grunt-render-nunjucks");
-
+grunt.loadNpmTasks('grunt-available-tasks');
 grunt.registerTask("serve", ["concat", "renderNunjucks", "connect", "watch"]);
