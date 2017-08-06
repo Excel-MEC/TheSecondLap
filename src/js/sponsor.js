@@ -13,8 +13,7 @@ $(document).ready(function(){
 			$(".medical").delay(2000).fadeOut();
 			$(".gold").delay(2000).fadeIn();	
 		}
-		i++;
-		
+		i++;		
 	}
 	var interval = self.setInterval(function(){LoopForever()},3000);
 });
