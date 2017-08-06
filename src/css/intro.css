@@ -5,18 +5,16 @@ section{
 
 .bg { 
     /* Full height */	
-    height: 70%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     left: 6%;
-    top: 50%;
+    top: 40%;
     transform: translate(0,-50%);
 }
 .intro-text{
-	width: 50%;
 	padding: 10%;
 	float: right;
 }

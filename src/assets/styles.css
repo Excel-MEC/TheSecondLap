@@ -13,18 +13,16 @@ section{
 
 .bg { 
     /* Full height */	
-    height: 70%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     left: 6%;
-    top: 50%;
+    top: 40%;
     transform: translate(0,-50%);
 }
 .intro-text{
-	width: 50%;
 	padding: 10%;
 	float: right;
 }
@@ -86,6 +84,26 @@ body{
 
 
 
+.sponsor-section{
+	background-color: black;
+}
+.sponsor{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	
+}
+.gold{
+	background-color: darkgreen;
+}
+.yesbank{
+	background-color: darkblue;
+	display: none;
+}
+.medical{
+	background-color: darkred;
+	display: none;
+}
 .timer-section{
     background: #fff;
     height: 100vh;
