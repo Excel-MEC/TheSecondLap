@@ -2,11 +2,12 @@ body{
     text-align: center;
 }
 .navbar{
-	background-color: #1b6d85;
+	background-color: #fff;
     margin-bottom: 0;
 }
 .navbar img{
     margin: 0;
+    padding: 3%;
 }
 .navbar .container{
     margin: 0;
@@ -15,4 +16,12 @@ body{
 .navbar .excel{
     float: right;
 }
+.colg-logo{
+	height: 70px;
+}
+.excel-logo{
+	height: 70px;
+	float: right;
+}
+
 

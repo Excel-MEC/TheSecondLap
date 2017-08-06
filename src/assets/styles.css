@@ -7,20 +7,29 @@
 
 
 section{
-    background-color: dimgrey;
     height: 100vh;
 }
-.timer-contain{
-    display: flex;
+
+
+.bg { 
+    /* Full height */	
+    height: 70%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    transform: translate(0,-50%);
 }
-.timer-label{
-    width: 25%;
-}
-.dial-label{
-    color: white;
+.intro-text{
+	width: 50%;
+	padding: 10%;
+	float: right;
 }
 html{ 
-  background: url(img/bg.jpg) no-repeat center center fixed; 
+  background: url(./imgs/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,11 +62,12 @@ body{
     text-align: center;
 }
 .navbar{
-	background-color: #1b6d85;
+	background-color: #fff;
     margin-bottom: 0;
 }
 .navbar img{
     margin: 0;
+    padding: 3%;
 }
 .navbar .container{
     margin: 0;
@@ -66,4 +76,46 @@ body{
 .navbar .excel{
     float: right;
 }
+.colg-logo{
+	height: 70px;
+}
+.excel-logo{
+	height: 70px;
+	float: right;
+}
 
+
+
+.timer-section{
+    background: #fff;
+    height: 100vh;
+}
+.timer-contain{
+    display: flex;
+
+}
+.timer-label{
+    width: 25%;
+}
+.dial-label{
+    color: black;
+    
+}
+.register{
+	margin-top: 2%;
+	color: #f44336;
+    padding-bottom: 2%;
+}
+.reg-button{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration:blink;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+.event-logo{
+    margin-top: 2%;
+    width: 50%;
+}
