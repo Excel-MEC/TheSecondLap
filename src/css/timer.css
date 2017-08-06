@@ -1,6 +1,7 @@
 .timer-section{
     background: #fff;
     height: 100vh;
+    text-align: center;
 }
 .timer-contain{
     display: flex;
@@ -28,6 +29,7 @@
     
 }
 .event-logo{
-    margin-top: 2%;
-    width: 50%;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 2%;
 }
