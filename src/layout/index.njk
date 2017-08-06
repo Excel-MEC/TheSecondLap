@@ -4,10 +4,19 @@
         <title>The Second Lap</title>
         <link rel="stylesheet" href="assets/styles.css">
     </head>
-    <body
+    <body>
         {% include "../sections/navbar.njk" %}
 
+        {% include "../sections/intro.njk" %}
+
         {% include "../sections/footer.njk" %}
+        <script src="./jquery-3.2.1.min%20(1).js"></script>
+        <script src="jquery.ccountdown.js"></script>
+        <script src="jquery.knob.js"></script>
+        <script src="init.js"></script>
         <script src="assets/scripts.js"></script>
+        <script>
+	        $(".ccounter").ccountdown(2017,8,13,'7:00');
+        </script>
     </body>
 </html>

@@ -6,6 +6,64 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 
+section{
+    background-color: dimgrey;
+    height: 100vh;
+}
+.timer-contain{
+    display: flex;
+}
+.timer-label{
+    width: 25%;
+}
+.dial-label{
+    color: white;
+}
+html{ 
+  background: url(img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.intro-bg{
+  width: 100vw;
+  height: 100vh;
+  filter: blur(20px);
+
+}
+.intro-header{
+  width: 100vw;
+}
+.mec_logo{
+  float: left;
+  margin: 20px;
+  max-height:70px; 
+  vertical-align: text-middle;
+  text-align: center;
+}
+.excel2017{
+  float: right;
+  margin: 10px;
+  max-height:90px; 
+  vertical-align: text-middle;
+
+}
+body{
+    text-align: center;
+}
 .navbar{
 	background-color: #1b6d85;
+    margin-bottom: 0;
 }
+.navbar img{
+    margin: 0;
+}
+.navbar .container{
+    margin: 0;
+    width: 100%;
+}
+.navbar .excel{
+    float: right;
+}
+

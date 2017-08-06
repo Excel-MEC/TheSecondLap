@@ -1,3 +1,18 @@
+body{
+    text-align: center;
+}
 .navbar{
 	background-color: #1b6d85;
+    margin-bottom: 0;
 }
+.navbar img{
+    margin: 0;
+}
+.navbar .container{
+    margin: 0;
+    width: 100%;
+}
+.navbar .excel{
+    float: right;
+}
+

@@ -16,7 +16,7 @@ grunt.initConfig({
 			}
 		},
 		nuns: {
-			files: ["src/layout/**/*.njk", "src/sections/**/*.njk"],
+			files: ["src/sections/**/*.njk", "src/layout/**/*.njk"],
 			tasks: ["renderNunjucks:index"],
 			options: {
 				spawn: true

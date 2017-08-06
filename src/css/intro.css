@@ -1,0 +1,13 @@
+section{
+    background-color: dimgrey;
+    height: 100vh;
+}
+.timer-contain{
+    display: flex;
+}
+.timer-label{
+    width: 25%;
+}
+.dial-label{
+    color: white;
+}
