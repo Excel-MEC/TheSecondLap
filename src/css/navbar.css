@@ -4,9 +4,10 @@ body{
 .navbar{
 	background-color: #fff;
     margin-bottom: 0;
-    height: 100px;
+    height: 80px;
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 .navbar img{
     margin: 0;

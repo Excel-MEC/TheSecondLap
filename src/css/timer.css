@@ -2,13 +2,7 @@
     background: #fff;
     text-align: center;
 }
-.timer-contain{
-    display: flex;
 
-}
-.timer-label{
-    width: 25%;
-}
 .dial-label{
     color: black;
     
