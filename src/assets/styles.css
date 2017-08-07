@@ -35,7 +35,12 @@
 .common{
     margin-top: 80px;
 }
-
+.intro-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0,-50%);
+}
 @media(max-width: 980px){
     section{
         position: relative;
@@ -109,7 +114,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	padding: 10%;
 	position: absolute;
     left: 6%;
-    top: 40%;
+    top: 55%;
     transform: translate(0,-50%);
 }
 .sponsor-text{
@@ -119,15 +124,13 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	float: right;
 	position: absolute;
     left: 46%;
-    top: 40%;
+    top: 55%;
     transform: translate(0,-50%);
 }
 .gold-text,.yesbank-text{
 	color: white;
 }
-body {
-  background-color: #f2f1ed;
-}
+
 
 .wrap {
   position: absolute;
@@ -166,11 +169,18 @@ h2 strong {
 }
 
 .countdown {
-  width: 720px;
-  margin: 0 auto;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
 }
 .countdown .bloc-time {
-  float: left;
+  float: none;
   margin-right: 45px;
   text-align: center;
 }
@@ -187,8 +197,8 @@ h2 strong {
 .countdown .figure {
   position: relative;
   float: left;
-  height: 110px;
-  width: 100px;
+  height: 88px;
+  width: 80px;
   margin-right: 10px;
   background-color: #fff;
   border-radius: 8px;
@@ -204,7 +214,7 @@ h2 strong {
   left: 0;
   right: 0;
   margin: auto;
-  font: normal 5.94em/107px "Lato";
+  font: normal 80px "Lato";
   font-weight: 700;
   color: #de4848;
 }
@@ -299,15 +309,7 @@ h2 strong {
   margin: auto;
 }
 
-.timer-section{
-    background: #fff;
-    text-align: center;
-}
 
-.dial-label{
-    color: black;
-    
-}
 .register{
 	margin-top: 2%;
 	color: #f44336;
@@ -323,7 +325,9 @@ h2 strong {
     
 }
 .event-logo{
-    width: 30%;
+    width: 80%;
+    opacity: 0.5;
     margin: 0 auto;
     margin-bottom: 2%;
 }
+
