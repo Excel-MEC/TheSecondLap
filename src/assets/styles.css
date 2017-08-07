@@ -163,7 +163,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     .waypoints{
        width: 100%;
        position: absolute;
-       top: 0 ;
+       top: 0;
+        height: 50%;
 
     }
     .route{
@@ -173,7 +174,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     #map{
         width: 100%;
         left: 0;
-        top: 30vh;
+        top: 25vh;
+
     }
 }
 .sponsor-section{

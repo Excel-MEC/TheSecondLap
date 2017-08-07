@@ -21,7 +21,8 @@
     .waypoints{
        width: 100%;
        position: absolute;
-       top: 0 ;
+       top: 0;
+        height: 50%;
 
     }
     .route{
@@ -31,6 +32,7 @@
     #map{
         width: 100%;
         left: 0;
-        top: 30vh;
+        top: 25vh;
+
     }
 }
