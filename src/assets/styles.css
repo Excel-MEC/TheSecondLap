@@ -33,6 +33,9 @@
 
 
 
+section{
+    height: 100vh; 
+}
 .bg {
     background-position: center;
     background-repeat: no-repeat;
@@ -82,6 +85,9 @@ body{
 .navbar{
 	background-color: #fff;
     margin-bottom: 0;
+    height: 80px;
+    position: fixed;
+    width: 100%;
 }
 .navbar img{
     margin: 0;
@@ -105,9 +111,10 @@ body{
 
 
 .sponsor{
-	height: 89.4vh;
+	height: 100vh;
 	width: 100vw;
 	position: absolute;
+	overflow: hidden;
 
 }
 .gold{
@@ -127,7 +134,7 @@ body{
 	padding: 10%;
 	position: absolute;
     left: 6%;
-    top: 40%;
+    top: 50%;
     transform: translate(0,-50%);
 }
 .sponsor-text{
@@ -137,7 +144,7 @@ body{
 	float: right;
 	position: absolute;
     left: 46%;
-    top: 40%;
+    top: 50%;
     transform: translate(0,-50%);
 }
 .gold-text,.yesbank-text{
