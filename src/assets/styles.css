@@ -33,14 +33,7 @@
 
 
 
-section{
-    height: 100vh;
-}
-
-
-.bg { 
-    /* Full height */	
-    /* Center and scale the image nicely */
+.bg {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,15 +104,11 @@ body{
 
 
 
-.sponsor-section{
-	background-color: black;
-	width: 100vw;
-}
 .sponsor{
-	height: 100vh;
+	height: 89.4vh;
 	width: 100vw;
 	position: absolute;
-	
+
 }
 .gold{
 	background-color: #263238;
