@@ -1,12 +1,4 @@
-.timer-section{
-    background: #fff;
-    text-align: center;
-}
 
-.dial-label{
-    color: black;
-    
-}
 .register{
 	margin-top: 2%;
 	color: #f44336;
@@ -22,7 +14,9 @@
     
 }
 .event-logo{
-    width: 30%;
+    width: 80%;
+    opacity: 0.5;
     margin: 0 auto;
     margin-bottom: 2%;
 }
+

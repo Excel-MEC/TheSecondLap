@@ -1,7 +1,12 @@
 .common{
     margin-top: 80px;
 }
-
+.intro-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0,-50%);
+}
 @media(max-width: 980px){
     section{
         position: relative;
