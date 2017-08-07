@@ -51,5 +51,8 @@
     	left: 50%;
     	transform: translate(-50%,-50%);
     }
+    .bank{
+    	margin-top: 15vh;
+    }
 
 }
