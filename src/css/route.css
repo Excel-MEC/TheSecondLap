@@ -1,8 +1,8 @@
 #map{
     height: 60vh;
-    width: 40%;
+    width: 50%;
     margin-top: 30px;
-    left: 40%;
+    left: 50%;
 }
 .route{
     display: flex;
@@ -12,7 +12,7 @@
     margin-right: 30px;
 }
 .waypoints{
-    width: 40%;
+    width: 50%;
     position: absolute;
     height: 100%;
     top: 35%;
@@ -21,18 +21,23 @@
     .waypoints{
        width: 100%;
        position: absolute;
-       top: 0;
-        height: 50%;
+       top: 15vh;
+        height: 30%;
 
     }
     .route{
         position: relative;
         margin: 0;
+        height: 100%;
+    }
+    .waypoints h1{
+        margin-bottom: 10px;
     }
     #map{
         width: 100%;
         left: 0;
-        top: 25vh;
+        top: 40vh;
+        margin: 0;
 
     }
 }
