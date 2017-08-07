@@ -24,14 +24,7 @@
         <div class="row">
             <img src="./imgs/secondlap.png" class="bg col-sm-6" />
             <div class="intro-text col-sm-6">
-                At ​ Govt. Model Engineering College, we believe that ​ life is the most valuable gift, yet we
-fail to appreciate it. Of all the things one fancies, what if you had the power to give this gift to
-someone in need? On August 13th, 2017, YES BANK and Excel 2107 will strive to spread this
-message through ​ “The Second Lap”, a mini marathon being organised ​ in Kochi in
-association with Gold’s Gym, in connection with ​ World Organ Donation Day​ . The
-mini-marathon will witness about 500 participants, accompanied by teams from ​ The Indian
-Medical Association​ , spreading the message of Organ Donation. The event will be flagged off
-at ​ Willingdon Island​ and will cover a distance of 10 KM to conclude at Marine Drive, Kochi.
+                At ​ Govt. Model Engineering College, we believe that ​ life is the most valuable gift, yet we fail to appreciate it. Of all the things one fancies, what if you had the power to give this gift to someone in need? On August 13th, 2017, YES BANK and Excel 2107 will strive to spread this message through ​ “The Second Lap”, a mini marathon being organised ​ in Kochi in association with Gold’s Gym, in connection with ​ World Organ Donation Day​ . The mini-marathon will witness about 500 participants, accompanied by teams from ​ The Indian Medical Association​ , spreading the message of Organ Donation. The event will be flagged off at ​ Willingdon Island​ and will cover a distance of 10 KM to conclude at Marine Drive, Kochi.
             </div>
         </div>
     </section>
@@ -41,11 +34,11 @@ at ​ Willingdon Island​ and will cover a distance of 10 KM to conclude at Ma
 	<div class="ccounter timer-bg">
         <div class="timer-contain">
             <div class="timer-label">
-                <input class="knob days dial" data-readOnly="true" data-width="150" data-displayPrevious=true data-fgColor="#000" data-skin="tron" data-thickness=".2" data-min="0" data-max="365" value="75">
+                <input class="knob days dial" data-readOnly="true" data-width="150" data-displayPrevious=true data-fgColor="#000" data-skin="tron" data-thickness=".2" data-min="0" data-max="365" data-rotation="anticlockwise" value="75">
                 <div class="dial-label"><h2>days</h2></div>
             </div>
             <div class="timer-label">
-                <input class="knob hour dial" data-readOnly="true" data-width="150" data-min="0" data-max="24" data-displayPrevious=true data-fgColor="#000" data-skin="tron" data-thickness=".2" value="75">
+                <input class="knob hour dial" data-readOnly="true" data-width="150" data-min="0" data-max="24" data-displayPrevious=true data-fgColor="#000" data-skin="tron" data-thickness=".2" data-rotation=anticlockwise value="75">
                 <div class="dial-label"><h2>hours</h2></div>
             </div>
             <div class="timer-label">
@@ -53,7 +46,7 @@ at ​ Willingdon Island​ and will cover a distance of 10 KM to conclude at Ma
                 <div class="dial-label"><h2>minutes</h2></div>
             </div>
             <div class="timer-label">
-                <input class="knob second dial" data-readOnly="true" data-width="150" data-min="0" data-max="60" data-displayPrevious=true data-fgColor="#000" data-skin="tron" data-thickness=".2" value="75">
+                <input class="knob second dial" data-readOnly="true" data-width="150" data-min="0" data-max="60" data-displayPrevious=true data-fgColor="#000" data-skin="tron" data-thickness=".2" data-rotation="anticlockwise" value="75">
                 <div class="dial-label"><h2>seconds</h2></div>
             </div>
         </div>
@@ -94,7 +87,7 @@ at ​ Willingdon Island​ and will cover a distance of 10 KM to conclude at Ma
 =======
 >>>>>>> 138c834e15bf7e2979447d40c97ebf8e39578c50
 
-            <section class="section">
+<section class="section">
     <div class="contact">
         <h2 class="contact_heading">Contact US</h2>
         <div class="contacts_section">
@@ -132,6 +125,7 @@ at ​ Willingdon Island​ and will cover a distance of 10 KM to conclude at Ma
         <script src="assets/scripts.js"></script>
         <script>
 	        $(".ccounter").ccountdown(2017,8,13,'7:00');
+            //$(".dial").knob({'rotation':'anticlockwise'})
 	        $("#fullpage").fullpage();
         </script>
     </body>
