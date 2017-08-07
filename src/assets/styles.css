@@ -33,7 +33,9 @@
 
 
 
-
+section{
+    height: 100% !important;
+}
 .bg {
     background-position: center;
     background-repeat: no-repeat;
