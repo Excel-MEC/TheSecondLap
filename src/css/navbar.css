@@ -1,31 +1,34 @@
-body{
-    text-align: center;
+body {
+	text-align: center;
 }
-.navbar{
+.navbar {
 	background-color: #fff;
-    margin-bottom: 0;
-    height: 80px;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
+	margin-bottom: 0;
+	height: 80px;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
 }
-.navbar img{
-    margin: 0;
-    padding: 3%;
+.navbar img {
+	margin: 0;
+	padding: 3%;
 }
-.navbar .container{
-    margin: 0;
-    width: 100%;
+.navbar .container {
+	margin: 0;
+	width: 100%;
 }
-.navbar .excel{
-    float: right;
-}
-.colg-logo{
-	height: 70px;
-}
-.excel-logo{
-	height: 70px;
+.navbar .excel {
 	float: right;
 }
 
-
+@media (max-width: 800px) {
+	.navbar {
+		height: 50px;
+	}
+	.excel-logo {
+		width: 100%;
+	}
+	.colg-logo {
+		width: 100%;
+	}
+}
