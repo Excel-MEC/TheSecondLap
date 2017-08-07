@@ -176,3 +176,69 @@ h2 strong {
   right: 0;
   margin: auto;
 }
+@media(max-width: 980px){
+  .bloc-time{
+    display: block;
+    margin-right: 0;
+  }
+  .wrap{
+    display: block;
+  }
+  .figure-contain{
+    display: flex;
+    justify-content: center;
+  }
+  .countdown .bloc-time {
+   
+      margin-right: 0px; 
+      text-align: center;
+  }
+  .countdown .figure {
+    
+    height: 66px;
+    width: 60px;
+    
+  }
+  .countdown{
+    display: block;
+  }
+  .countdown .figure > span {
+  
+    font: normal 60px "Lato";
+    font-weight: 700;
+    
+  }
+  .timer-contain{
+    width: 100%;
+    height: 100%;
+  }
+  .register{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%,0);
+
+  }
+  .count-title{
+    margin-top: 15px;
+  }
+
+}
+@media(max-width: 350px){
+  .count-title{
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .countdown .figure {
+    
+    height: 55px;
+    width: 50px;
+    
+  }
+  .countdown .figure > span {
+  
+    font: normal 50px "Lato";
+    font-weight: 700;
+    
+  }
+}

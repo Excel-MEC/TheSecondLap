@@ -1,8 +1,12 @@
 
+
 .register{
-	margin-top: 2%;
-	color: #f44336;
-    padding-bottom: 2%;
+    color: #f44336;
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%,0);
+
 }
 .reg-button{
     border: none;
