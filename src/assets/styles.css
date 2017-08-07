@@ -33,51 +33,19 @@
 
 
 
-section{
-    height: 100vh; 
-}
+
 .bg {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     left: 6%;
-    top: 40%;
+    top: 50%;
     transform: translate(0,-50%);
 }
 .intro-text{
 	padding: 10%;
 	float: right;
-}
-html{ 
-  background: url(./imgs/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.intro-bg{
-  width: 100vw;
-  height: 100vh;
-  filter: blur(20px);
-
-}
-.intro-header{
-  width: 100vw;
-}
-.mec_logo{
-  float: left;
-  margin: 20px;
-  max-height:70px; 
-  vertical-align: text-middle;
-  text-align: center;
-}
-.excel2017{
-  float: right;
-  margin: 10px;
-  max-height:90px; 
-  vertical-align: text-middle;
-
 }
 body{
     text-align: center;
@@ -85,7 +53,7 @@ body{
 .navbar{
 	background-color: #fff;
     margin-bottom: 0;
-    height: 80px;
+    height: 100px;
     position: fixed;
     width: 100%;
 }
@@ -110,12 +78,14 @@ body{
 
 
 
-.sponsor{
-	height: 100vh;
-	width: 100vw;
-	position: absolute;
+.sponsor-section{
+	position: relative;
 	overflow: hidden;
-
+}
+.sponsor{
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 .gold{
 	background-color: #263238;
@@ -152,7 +122,6 @@ body{
 }
 .timer-section{
     background: #fff;
-    height: 100vh;
     text-align: center;
 }
 .timer-contain{
