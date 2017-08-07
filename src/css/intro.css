@@ -1,11 +1,4 @@
-section{
-    height: 100vh;
-}
-
-
-.bg { 
-    /* Full height */	
-    /* Center and scale the image nicely */
+.bg {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
