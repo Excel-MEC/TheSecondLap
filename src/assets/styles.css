@@ -34,6 +34,8 @@
 
 .common {
 	margin-top: 80px;
+    height: inherit;
+    padding-top: 50px;
 }
 
 .intro-logo {
@@ -52,14 +54,14 @@
 	section {
 		position: relative;
 	}
-	.common {
-		margin: unset;
-		margin-top: 50px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
+	/*.common {*/
+		/*margin: unset;*/
+		/*margin-top: 50px;*/
+		/*position: absolute;*/
+		/*top: 50%;*/
+		/*left: 50%;*/
+		/*transform: translate(-50%, -50%);*/
+	/*}*/
 	.intro-logo {
 		width: 100%;
 	}
@@ -244,25 +246,30 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .sponsor-logo{
-	width: 50%;
-	padding: 10%;
-	position: absolute;
-    left: 6%;
-    top: 55%;
-    transform: translate(0,-50%);
-}
-.sponsor-text{
-	text-align: center;
-	width: 50%;
-	padding: 10%;
-	float: right;
-	position: absolute;
-    left: 46%;
-    top: 55%;
-    transform: translate(0,-50%);
+    width: 35%;
+    left: 35%;
+    margin-bottom: 30px;
 }
 .gold-text,.yesbank-text{
 	color: white;
+}
+.sponsor{
+    padding-top: 80px;
+    margin-top: 50px;
+}
+@media (min-width: 768px) {
+    .sponsor-logo{
+        width: 50%;
+        left: unset;
+    }
+    .sponsor-text{
+        margin-top: 20vh;
+    }
+    .sponsor{
+        padding-top: unset;
+        margin-top: unset;
+    }
+
 }
 
 

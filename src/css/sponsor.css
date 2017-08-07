@@ -21,23 +21,28 @@
 }
 
 .sponsor-logo{
-	width: 50%;
-	padding: 10%;
-	position: absolute;
-    left: 6%;
-    top: 55%;
-    transform: translate(0,-50%);
-}
-.sponsor-text{
-	text-align: center;
-	width: 50%;
-	padding: 10%;
-	float: right;
-	position: absolute;
-    left: 46%;
-    top: 55%;
-    transform: translate(0,-50%);
+    width: 35%;
+    left: 35%;
+    margin-bottom: 30px;
 }
 .gold-text,.yesbank-text{
 	color: white;
+}
+.sponsor{
+    padding-top: 80px;
+    margin-top: 50px;
+}
+@media (min-width: 768px) {
+    .sponsor-logo{
+        width: 50%;
+        left: unset;
+    }
+    .sponsor-text{
+        margin-top: 20vh;
+    }
+    .sponsor{
+        padding-top: unset;
+        margin-top: unset;
+    }
+
 }
