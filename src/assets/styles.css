@@ -811,6 +811,7 @@ a {
 	.bloc-time {
 		display: block;
 		margin-right: 0;
+		width: 30%;
 	}
 	.wrap {
 		display: block;
@@ -828,7 +829,7 @@ a {
 		width: 60px;
 	}
 	.countdown {
-		display: block;
+		display: flex;
 	}
 	.countdown .figure > span {
 		font: normal 60px "Lato";
@@ -846,6 +847,12 @@ a {
 	}
 	.count-title {
 		margin-top: 15px;
+	}
+}
+
+@media (max-width: 600px) {
+	.bloc-time {
+		width: 50%;
 	}
 }
 @media (max-width: 350px) {
