@@ -8,12 +8,10 @@
 	width: 100%;
 }
 .contact-heading {
-	font: unset;
 	margin: unset;
 	font-size: 25px;
 }
 .contacts_section  .contact-head {
-	font: unset;
 	margin: unset;
 	font-size: 25px;
 	margin-top: 10px;
@@ -67,6 +65,20 @@
 	transition: transform 1s;
 	transform: translateX(-50%);
 	will-change: transition;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.65);
 }
 
 .common {
