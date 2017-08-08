@@ -2,12 +2,12 @@
 
 Install dependencies
 
-`npm install`
+    npm install
 
 Serve the app using command
 
-`grunt serve`
+    grunt serve
 
 Build the app
 
-`grunt build`
+    grunt build
