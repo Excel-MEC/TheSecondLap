@@ -1,0 +1,60 @@
+#map {
+	height: 60vh;
+	width: 50%;
+}
+.route {
+	display: flex;
+	position: relative;
+	flex-wrap: wrap;
+}
+.waypoints {
+	width: 50%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.waypoints h1 {
+	font-size: 36px;
+}
+
+#map-button {
+	display: none;
+	margin: auto;
+}
+
+.waypoints i {
+	color: #4caf50;
+	font-size: 23px;
+}
+
+@media (max-width: 600px) {
+	#map {
+		display: none;
+	}
+	#map-button {
+		display: block;
+	}
+}
+
+@media (max-width: 980px) {
+	.waypoints {
+		width: 100%;
+		top: 0;
+		margin-bottom: 50px;
+	}
+	.route {
+		position: relative;
+	}
+	#map {
+		height: 40vh;
+		width: 100%;
+	}
+}
+@media (max-width: 380px) {
+	.waypoints {
+		margin-bottom: 25px;
+	}
+	.route {
+		margin-top: 50px;
+	}
+}
