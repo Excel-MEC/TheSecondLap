@@ -1,26 +1,38 @@
-
-
-.register{
-    color: #f44336;
-    position: absolute;
-    bottom: 7%;
-    left: 50%;
-    transform: translate(-50%,0);
-
+/*body {
+	background-image: url("../imgs/run.png");
+	background-position: center;
+	background-size: cover;
+	background-color: #3abcc0;
+}*/
+.register {
+	color: #f44336;
+	position: absolute;
+	bottom: 7%;
+	left: 50%;
+	transform: translate(-50%, 0);
 }
-.reg-button{
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration:blink;
-    display: inline-block;
-    cursor: pointer;
-    
+.reg-button {
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: blink;
+	display: inline-block;
+	cursor: pointer;
 }
-.event-logo{
-    width: 80%;
-    opacity: 0.5;
-    margin: 0 auto;
-    margin-bottom: 2%;
+.event-logo {
+	width: 80%;
+	opacity: 0.5;
+	margin: 0 auto;
+	margin-bottom: 2%;
 }
-
+.timer-contain {
+	position: static;
+}
+.waypoints h1 {
+	margin-bottom: 30px;
+}
+@media (max-width: 800px) {
+	.timer-contain {
+		position: relative;
+	}
+}

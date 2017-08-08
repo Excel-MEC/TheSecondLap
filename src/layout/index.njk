@@ -2,13 +2,15 @@
 <html>
     <head>
         <title>The Second Lap</title>
-        
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="assets/styles.css">
-        <link href="jquery.fullPage.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600|Montserrat" rel="stylesheet">
     </head>
     <body>
         {% include "../sections/navbar.njk" %}
+        <img class="run-image" src="imgs/run.png">
         <div id="fullpage">
             {% include "../sections/intro.njk" %}
 
@@ -20,8 +22,6 @@
 
             {% include "../sections/contact.njk" %}
         </div>
-        <script src="./jquery-3.2.1.min%20(1).js"></script>
-        <script src="jquery.fullPage.min.js"></script>
         <script src="https://use.fontawesome.com/75bc5066dd.js"></script>
         <script src="assets/scripts.js"></script>
         <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJogV8LYqidEbxxMRXHR4DLTxQtk_V5Kc&callback=initMap">
@@ -29,7 +29,21 @@
 
         <script>
             //$(".dial").knob({'rotation':'anticlockwise'})
-	        $("#fullpage").fullpage();
+            $(document).ready(function(){
+                var scroll=0;
+                $("#fullpage").fullpage({
+                    onLeave: function(index, nextIndex, direction){
+                        if(direction=='down'){
+                            scroll-=100;
+                        }
+                        else{
+                            scroll+=100;
+                        }
+                        $('.run-image').css({transform: 'translate(-50%,'+scroll+'px)'});
+                    }
+                });
+            });
+	        
         </script>
     </body>
 </html>

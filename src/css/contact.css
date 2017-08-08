@@ -1,25 +1,52 @@
-.contact{
-    margin-top: 25%;
-    width: 100%;
+.contact {
+	width: 100%;
 }
-.socialIcons{
-    position: relative;
-    margin-top: 30px;
+.contact-heading {
+	margin: unset;
+	font-size: 25px;
 }
-.socialIcons a{
-    margin-top: 30px;
-    color: black;
-    margin-left: 20px;
+.contacts_section  .contact-head {
+	margin: unset;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #d12f89;
 }
-.socialIcons .facebook:hover{
-    color: #3b5998;
+.contacts_section p {
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.6);
 }
-.socialIcons .youtube:hover{
-    color:#de2825 ;
+.socialIcons {
+	position: relative;
+	margin-top: 30px;
 }
-.socialIcons .instagram:hover{
-    color: #dc3080;
+.social-icons {
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+	margin: 20px auto;
+}
+.socialIcons a {
+	color: black;
 }
 
-
-
+.socialIcons .facebook {
+	color: #3b5998;
+}
+.socialIcons .youtube {
+	color: #de2825;
+}
+.socialIcons .instagram {
+	color: #dc3080;
+}
+@media (max-width: 600px) {
+	.contact-heading {
+		margin-bottom: 35px;
+	}
+	.social-icons {
+		width: 60%;
+	}
+	.contacts_section  .contact-head {
+		font-size: 23px;
+	}
+}
