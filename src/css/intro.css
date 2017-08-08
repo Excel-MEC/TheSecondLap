@@ -6,6 +6,7 @@
 	opacity: 0.5;
 	transition: transform 1s;
 	transform: translateX(-50%);
+	will-change: transition;
 }
 
 .common {
