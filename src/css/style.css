@@ -56,9 +56,16 @@ a {
 .countdown .count-title {
 	display: block;
 	margin-bottom: 15px;
-	font: normal 0.94em "Lato";
+	font: normal;
+	font-size: 12px;
 	color: #1a1a1a;
 	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+@media (min-width: 800px) {
+	.countdown .count-title {
+		font-size: 20px;
+	}
 }
 .countdown .figure {
 	position: relative;

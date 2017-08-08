@@ -28,8 +28,11 @@
 .timer-contain {
 	position: static;
 }
+.waypoints h1 {
+	margin-bottom: 30px;
+}
 @media (max-width: 800px) {
 	.timer-contain {
-		position: unset;
+		position: relative;
 	}
 }
