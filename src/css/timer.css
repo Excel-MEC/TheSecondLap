@@ -25,3 +25,11 @@
 	margin: 0 auto;
 	margin-bottom: 2%;
 }
+.timer-contain {
+	position: static;
+}
+@media (max-width: 800px) {
+	.timer-contain {
+		position: unset;
+	}
+}
