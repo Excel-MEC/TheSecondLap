@@ -70,6 +70,7 @@
 
 .common {
 	margin-top: 80px;
+	position: relative;
 }
 
 .intro-logo {
@@ -265,38 +266,74 @@ body {
 	position: relative;
 	overflow: hidden;
 }
+.spon-logo-container {
+	width: 50%;
+}
 .sponsor {
-	height: 100%;
+	height: auto;
 	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	top: 50%;
 	position: absolute;
-	top: 0;
+	transform: translateY(-50%);
 }
 .gold {
+	/*opacity: 0;*/
 }
 .yesbank {
-	display: none;
+	/*opacity: 0;*/
 }
 .medical {
-	display: none;
+	/*opacity: 0;*/
 }
 
 .sponsor-logo {
-	width: 50%;
-	padding: 10%;
-	position: absolute;
-	left: 6%;
-	top: 55%;
-	transform: translate(0, -50%);
+	width: 300px;
 }
 .sponsor-text {
 	text-align: center;
+	height: auto;
+	display: flex;
 	width: 50%;
-	padding: 10%;
-	float: right;
-	position: absolute;
-	left: 46%;
-	top: 55%;
-	transform: translate(0, -50%);
+}
+.sponsor-text p {
+	margin: auto;
+	align-self: center;
+	text-align: center;
+	/*text-align-last: center;*/
+}
+.sponsor-section .container {
+	height: 100%;
+}
+@media (max-width: 800px) {
+	.sponsor-text {
+		width: 100%;
+	}
+	.spon-logo-container {
+		width: 100%;
+		margin: 50px auto;
+	}
+	.sponsor-section .container {
+		padding-right: unset;
+		padding-left: unset;
+		margin-left: unset;
+		margin-right: unset;
+	}
+	.sponsor-text p {
+		padding: 20px;
+		text-align: justify;
+		text-align-last: center;
+	}
+}
+@media (max-width: 600px) {
+	.sponsor-logo {
+		width: 200px;
+	}
+	.spon-logo-container {
+		margin: 20px auto;
+	}
 }
 
 .wrap {
