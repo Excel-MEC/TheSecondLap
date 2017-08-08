@@ -501,29 +501,39 @@ h2 strong {
     
   }
 }
-
-
-.register{
-    color: #f44336;
-    position: absolute;
-    bottom: 7%;
-    left: 50%;
-    transform: translate(-50%,0);
-
-}
-.reg-button{
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration:blink;
-    display: inline-block;
-    cursor: pointer;
-    
-}
-.event-logo{
-    width: 80%;
-    opacity: 0.5;
-    margin: 0 auto;
-    margin-bottom: 2%;
+body {
+	background-image: url("../imgs/run.png");
+	background-position: center;
+	background-size: cover;
+	background-color: #3abcc0;
 }
 
+.run-image {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	opacity: 0.5;
+}
+
+.register {
+	color: #f44336;
+	position: absolute;
+	bottom: 7%;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+.reg-button {
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: blink;
+	display: inline-block;
+	cursor: pointer;
+}
+.event-logo {
+	width: 80%;
+	opacity: 0.5;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
