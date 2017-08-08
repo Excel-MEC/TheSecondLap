@@ -85,6 +85,12 @@
 	text-align: justify;
 }
 
+@media (max-width: 1300px) {
+	.intro-logo > img {
+		width: 600px;
+	}
+}
+
 @media (max-width: 800px) {
 	.run-image {
 		width: unset;
