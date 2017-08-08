@@ -9,6 +9,7 @@
     </head>
     <body>
         {% include "../sections/navbar.njk" %}
+        <img class="run-image" src="imgs/run.png">
         <div id="fullpage">
             {% include "../sections/intro.njk" %}
 
@@ -29,7 +30,21 @@
 
         <script>
             //$(".dial").knob({'rotation':'anticlockwise'})
-	        $("#fullpage").fullpage();
+            $(document).ready(function(){
+                var scroll=0;
+                $("#fullpage").fullpage({
+                    onLeave: function(index, nextIndex, direction){
+                        if(direction=='down'){
+                            scroll-=100;
+                        }
+                        else{
+                            scroll+=100;
+                        }
+                        $('.run-image').css({transform: 'translate(-50%,'+scroll+'px)'});
+                    }
+                });
+            })
+	        
         </script>
     </body>
 </html>

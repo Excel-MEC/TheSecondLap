@@ -19,10 +19,10 @@
     </div>
 </nav>
 
+        <img class="run-image" src="imgs/run.png">
         <div id="fullpage">
                 <section class=" section active intro-section">
     	<div class="common">
-
         <div class="container">
             <div class="row">
             <div class="intro-logo col-lg-8 col-md-8 col-xs-12 col-sm-12">
@@ -157,7 +157,7 @@
 </section>
 
             <section class="section">
-    <div class="route">
+    <div class="route container">
 
         <div class="waypoints">
             <h1>WayPoints</h1>
@@ -195,7 +195,7 @@
 			<div class="row">
 				<img src="./imgs/medical.png" class="sponsor-logo col-sm-6" />
             	<div class="sponsor-text col-sm-6 medical-text">
-                	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboreorum.
+                	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboreorum.
 	            </div>
 	        </div>
 		</div>
@@ -205,26 +205,28 @@
             <section class="section">
     <div class="common">
     <div class="contact">
-        <h2 class="contact_heading">Contact US</h2>
+        <h2 class="contact-heading">Contact US</h2>
         <div class="contacts_section">
             <div class="container">
-                <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
-                    <h3>Elza Tess Varkey</h3>
-                    <span>Social Initatives Manager,Excel2017</span><br>
-                    <span>+91 9562391591</span>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                    <h2 class="contact-head">Elza Tess Varkey</h2>
+                    <p>Social Initatives Manager, Excel2017</p>
+                    <p>+91 9562391591</p>
                 </div>
-                <div class="col-xs-6 col-md-6 col-lg-6 col-xs-6">
-                    <h3>Arjun Saju</h3>
-                    <span>Chairman,Excel2017</span><br>
-                    <span>+91 8943239997</span>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h2 class="contact-head">Arjun Saju</h2>
+                    <p>Chairman, Excel2017</p>
+                    <p>+91 8943239997</p>
                 </div>
             </div>
         </div>
         <div class="socialIcons">
-            <h4>Follow Us on</h4>
-            <a href="#" class="facebook"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-            <a href="#" class="youtube"><i class="fa fa-youtube fa-2x"></i></a>
-            <a href="#" class="instagram"><i class="fa fa-instagram fa-2x"></i></a>
+            <h4>Follow us on:</h4>
+            <div class="social-icons">
+                <a href="#" class="facebook"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                <a href="#" class="youtube"><i class="fa fa-youtube fa-2x"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram fa-2x"></i></a>
+            </div>
         </div>
     </div>
     </div>
@@ -239,7 +241,21 @@
 
         <script>
             //$(".dial").knob({'rotation':'anticlockwise'})
-	        $("#fullpage").fullpage();
+            $(document).ready(function(){
+                var scroll=0;
+                $("#fullpage").fullpage({
+                    onLeave: function(index, nextIndex, direction){
+                        if(direction=='down'){
+                            scroll-=100;
+                        }
+                        else{
+                            scroll+=100;
+                        }
+                        $('.run-image').css({transform: 'translate(-50%,'+scroll+'px)'});
+                    }
+                });
+            })
+
         </script>
     </body>
 </html>

@@ -1,43 +1,37 @@
-.sponsor-section{
+.sponsor-section {
 	position: relative;
 	overflow: hidden;
 }
-.sponsor{
+.sponsor {
 	height: 100%;
 	width: 100%;
 	position: absolute;
 	top: 0;
 }
-.gold{
-	background-color: #263238;
+.gold {
 }
-.yesbank{
-	background-color: #283593;
+.yesbank {
 	display: none;
 }
-.medical{
-	background-color: white;
+.medical {
 	display: none;
 }
 
-.sponsor-logo{
+.sponsor-logo {
 	width: 50%;
 	padding: 10%;
 	position: absolute;
-    left: 6%;
-    top: 55%;
-    transform: translate(0,-50%);
+	left: 6%;
+	top: 55%;
+	transform: translate(0, -50%);
 }
-.sponsor-text{
+.sponsor-text {
 	text-align: center;
 	width: 50%;
 	padding: 10%;
 	float: right;
 	position: absolute;
-    left: 46%;
-    top: 55%;
-    transform: translate(0,-50%);
-}
-.gold-text,.yesbank-text{
-	color: white;
+	left: 46%;
+	top: 55%;
+	transform: translate(0, -50%);
 }

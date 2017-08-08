@@ -1,3 +1,13 @@
+.run-image {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	top: 100px;
+	opacity: 0.5;
+	transition: transform 1s;
+	transform: translateX(-50%);
+}
+
 .common {
 	margin-top: 80px;
 }
@@ -15,6 +25,10 @@
 }
 
 @media (max-width: 800px) {
+	.run-image {
+		width: unset;
+		top: 200px;
+	}
 	section {
 		position: relative;
 	}
@@ -43,8 +57,12 @@
 }
 
 @media (max-width: 600px) {
+	.run-image {
+		/*left: -150%;*/
+		top: 80px;
+	}
 	.common {
-		margin: unset;
+		margin-top: 50px;
 		position: relative;
 		top: unset;
 		left: unset;
@@ -62,6 +80,9 @@
 }
 
 @media (max-width: 360px) {
+	.run-image {
+		/*left: -200%;*/
+	}
 	.intro-logo > img {
 		width: 175px;
 	}

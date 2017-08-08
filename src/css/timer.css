@@ -1,18 +1,9 @@
-body {
+/*body {
 	background-image: url("../imgs/run.png");
 	background-position: center;
 	background-size: cover;
 	background-color: #3abcc0;
-}
-
-.run-image {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	opacity: 0.5;
-}
-
+}*/
 .register {
 	color: #f44336;
 	position: absolute;
