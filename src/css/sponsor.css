@@ -1,58 +1,73 @@
-.sponsor-section{
+.sponsor-section {
 	position: relative;
 	overflow: hidden;
 }
-.sponsor{
-	height: 100%;
+.spon-logo-container {
+	width: 50%;
+}
+.sponsor {
+	height: auto;
 	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	top: 50%;
 	position: absolute;
-	top: 0;
+	transform: translateY(-50%);
 }
-.gold{
-	background-color: #263238;
+.gold {
+	/*opacity: 0;*/
 }
-.yesbank{
-	background-color: #283593;
-	display: none;
+.yesbank {
+	/*opacity: 0;*/
 }
-.medical{
-	background-color: white;
-	display: none;
+.medical {
+	/*opacity: 0;*/
 }
 
-.sponsor-logo{
-    width: 35%;
-    left: 35%;
-    margin-bottom: 30px;
+.sponsor-logo {
+	width: 300px;
 }
-.gold-text,.yesbank-text{
-	color: white;
+.sponsor-text {
+	text-align: center;
+	height: auto;
+	display: flex;
+	width: 50%;
 }
-.sponsor{
-    padding-top: 80px;
-    margin-top: 50px;
+.sponsor-text p {
+	margin: auto;
+	align-self: center;
+	text-align: center;
+	/*text-align-last: center;*/
 }
-@media (min-width: 768px) {
-    .sponsor-logo{
-        width: 50%;
-        left: unset;
-    }
-    .sponsor-text{
-        margin-top: 20vh;
-
-    }
-    .sponsor{
-        padding-top: unset;
-        margin-top: unset;
-    }
-    .sponsor-contain{
-    	position: absolute;
-    	top: 50%;
-    	left: 50%;
-    	transform: translate(-50%,-50%);
-    }
-    .bank{
-    	margin-top: 15vh;
-    }
-
+.sponsor-section .container {
+	height: 100%;
+}
+@media (max-width: 800px) {
+	.sponsor-text {
+		width: 100%;
+	}
+	.spon-logo-container {
+		width: 100%;
+		margin: 50px auto;
+	}
+	.sponsor-section .container {
+		padding-right: unset;
+		padding-left: unset;
+		margin-left: unset;
+		margin-right: unset;
+	}
+	.sponsor-text p {
+		padding: 20px;
+		text-align: justify;
+		text-align-last: center;
+	}
+}
+@media (max-width: 600px) {
+	.sponsor-logo {
+		width: 200px;
+	}
+	.spon-logo-container {
+		margin: 20px auto;
+	}
 }
